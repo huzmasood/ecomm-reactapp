@@ -1,0 +1,1 @@
+An eCommerce web app developed using React as the frontend JS library. State is managed globally with the help of Redux. Local storage is applied using redux persist. Styling was taken care of using Tailwind CSS.
