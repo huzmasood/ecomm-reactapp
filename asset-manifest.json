@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecomm-reactapp/static/css/main.0bea1b79.css",
-    "main.js": "/ecomm-reactapp/static/js/main.951c193b.js",
+    "main.js": "/ecomm-reactapp/static/js/main.ef86279f.js",
     "static/js/787.14035003.chunk.js": "/ecomm-reactapp/static/js/787.14035003.chunk.js",
     "static/media/football.png": "/ecomm-reactapp/static/media/football.894577de68a5041dab69.png",
     "static/media/jacket.png": "/ecomm-reactapp/static/media/jacket.a33e74d5824450aeeb2c.png",
@@ -15,11 +15,11 @@
     "static/media/belt.png": "/ecomm-reactapp/static/media/belt.a8dc60cb7ea3134a6532.png",
     "index.html": "/ecomm-reactapp/index.html",
     "main.0bea1b79.css.map": "/ecomm-reactapp/static/css/main.0bea1b79.css.map",
-    "main.951c193b.js.map": "/ecomm-reactapp/static/js/main.951c193b.js.map",
+    "main.ef86279f.js.map": "/ecomm-reactapp/static/js/main.ef86279f.js.map",
     "787.14035003.chunk.js.map": "/ecomm-reactapp/static/js/787.14035003.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bea1b79.css",
-    "static/js/main.951c193b.js"
+    "static/js/main.ef86279f.js"
   ]
 }
