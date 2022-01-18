@@ -52,14 +52,14 @@ export default function Navbar() {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => {
-                      if (window.location.pathname === `/${item.name.toLowerCase()}`) {
+                      if (window.location.pathname === `/ecomm-reactapp/${item.name.toLowerCase()}`) {
                         item.current = true;
-                      } else if (window.location.pathname === '/' && item.name === 'Home') {
+                      } else if ((window.location.pathname === '/' || window.location.pathname === '/ecomm-reactapp' || window.location.pathname === '/ecomm-reactapp/') && item.name === 'Home') {
                         item.current = true;
                       } else {
                         item.current = false;
                       }
-                      return (<Link to={`/${item.name.toLowerCase()}`}
+                      return (<Link to={`/ecomm-reactapp/${item.name.toLowerCase()}`}
                                 key={item.name}
                                 className={classNames(
                                   item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
