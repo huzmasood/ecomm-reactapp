@@ -16,9 +16,9 @@ ReactDOM.render(
         <PersistGate persistor={ persistor }>
           <Routes>
             <Route path="/" element={ <App /> } />
-            <Route path="home" element={ <App /> } />
             <Route path="ecomm-reactapp" element={ <App /> } />
-            <Route path="cart" element={ <Cart /> } />
+            <Route path="ecomm-reactapp/home" element={ <App /> } />
+            <Route path="ecomm-reactapp/cart" element={ <Cart /> } />
           </Routes>
         </PersistGate>
       </Provider>
