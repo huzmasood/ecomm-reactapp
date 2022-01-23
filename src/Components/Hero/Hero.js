@@ -35,7 +35,7 @@ function Hero() {
                         <div>Product Name: <b>{product.name}</b></div>
                         <div>Product Price: <b>{product.price}</b></div>
                         {inCart(product) ?
-                        <button onClick={ () => navigate('ecomm-reactapp/cart') } className="bg-neutral-500 hover:bg-neutral-700 text-white font-bold py-1.5 px-3.5 rounded-full">View in Cart</button> :
+                        <button onClick={ () => navigate('/ecomm-reactapp/cart') } className="bg-neutral-500 hover:bg-neutral-700 text-white font-bold py-1.5 px-3.5 rounded-full">View in Cart</button> :
                         <button onClick={ () => addItem(product) } className="bg-neutral-500 hover:bg-neutral-700 text-white font-bold py-1.5 px-3.5 rounded-full">Add to Cart</button>
                         }
                     </div>
